@@ -38,4 +38,4 @@ So we put the convolution as the Decryption function. and write an Encryption al
 ![slide12](img/Slide12.PNG)
 
 So far we considered the kernel is [ 1 , 1 , 1 , ...] to show it simple , and now with the general form it may contain any number.
-![slide13](img/Slide13.PNG)
+![slide13](img/Slide11.PNG)
