@@ -6,7 +6,7 @@ this is a new way to secure your data.
 
 
 Advantages of conv2crypt : 
-- it is possible to have many matrices and the convolution of them with the same kernel / key gives us the same result. so we can store data in different forms.
+- it is possible to have many cipher and the Decryption of them with the same kernel / key gives us the same result. so we can store data in different forms.
 - it is possble to make a kernel / key with different size. 
 
 Disanvantages : 
