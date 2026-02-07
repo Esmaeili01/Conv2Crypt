@@ -1,7 +1,6 @@
 from random import randint 
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-
 def conv_encrypt (text : str , kernel : list) -> str : 
     text = text.upper()
     n = len(text)
@@ -42,5 +41,4 @@ def conv_decrypt(cipher : str , kernel : list) -> str :
 
 
     return text
-
 
