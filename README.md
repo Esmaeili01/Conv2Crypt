@@ -2,8 +2,8 @@
 ## Convolution to Cryptography
 
 
-this is a new way to secure your data. 
-
+This is a new way to secure your data. 
+Convolution is a basic operaion in signal and image processing and operates on matrices. 
 
 Advantages of conv2crypt : 
 - it is possible to have many cipher and the Decryption of them with the same kernel / key gives us the same result. so we can store data in different forms.
