@@ -10,9 +10,9 @@ Advantages of conv2crypt :
 - it is possble to make a kernel / key with different size. 
 
 Disanvantages : 
-- the last index of the kernel / key can not be zero.
+- the last index of the kernel / key must be one.
 
-so the only rule of it is the last index of the kernel / key can not be zero.
+so the only rule of it is the last index of the kernel / key must be one.
 
 ## Implimentation : 
 

@@ -15,7 +15,7 @@ def conv_encrypt (text : str , kernel : list) -> str :
         for j in range(m-1) : 
             sum += en_list[i+j]*kernel[j]
 
-        x = (index - sum) // kernel[m-1] % 26
+        x = (index - sum) % 26
         en_list.append(x)
     
     cipher = ""

@@ -3,10 +3,13 @@ from conv2crypt import *
 
 
 text = "hello" 
-kernel = [1 , 1 , 1]
-cipher = conv_encrypt(text, kernel)
-print(cipher)
-t = conv_decrypt(cipher , kernel)
-print(t)
-
-print(randint(-1,0))
+kernel = [20 , 42 , 4 , 4 , 223 , 1]
+cipher1 = conv_encrypt(text, kernel)
+cipher2 = conv_encrypt(text, kernel)
+print(cipher1)
+print(cipher2)
+print()
+t1 = conv_decrypt(cipher1 , kernel)
+t2 = conv_decrypt(cipher2 , kernel)
+print(t1)
+print(t2)
