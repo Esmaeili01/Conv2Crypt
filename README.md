@@ -1,5 +1,5 @@
 # Conv2Crypt
-## Cryptography with Convolution
+## Convolution to Cryptography
 
 
 this is a new way to secure your data. 
