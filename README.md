@@ -4,6 +4,7 @@
 
 this is a new way to secure your data. 
 
+
 Advantages of conv2crypt : 
 - it is possible to have many matrices and the convolution of them with the same kernel / key gives us the same result. so we can store data in different forms.
 - it is possble to make a kernel / key with different size. 
@@ -15,7 +16,8 @@ so the only rule of it is the last index of the kernel / key can not be zero.
 
 ## Implimentation : 
 
-![slide1](img/Slide1.PNG)
+We take the letters and let the numbers 0 to 25 represent them.
+and after Encrypt or Decrypt we take the lettters back.
 
 Since the algorithm is based on convolution , have a quick look on it :   
 
