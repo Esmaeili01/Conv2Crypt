@@ -14,6 +14,8 @@ Disanvantages :
 
 so the only rule of it is the last index of the kernel / key must be one.
 
+to use it , download the conv2crypt.py and main.py , then run main.py. and you can import conv2crypt.py and use the conv_encrypt and conv_decrypt functions anywhere you want.
+
 ## Implimentation : 
 
 We take the letters and let the numbers 0 to 25 represent them.
